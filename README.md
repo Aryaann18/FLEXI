@@ -75,11 +75,13 @@ Double-click **`start-all.bat`** in the project folder. It will launch both the 
 
 ### Option 2: Terminal Commands
 
+Before starting the backend, copy `.env.example` to `.env` in the project root (or `server/.env.example` to `server/.env` when launching from the `server` directory), then set `JWT_SECRET` to a unique, long random value. The backend will not start with the example placeholder.
+
 #### 1. Start the Backend Server
 Open a terminal in the `FLEXI` directory:
 ```powershell
-cd backend
-node server.js
+copy .env.example .env
+npm run server
 ```
 *The backend connects to MongoDB, auto-seeds default demo data if empty, and listens on `http://localhost:5000`.*
 

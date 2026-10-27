@@ -1,7 +1,21 @@
 {
   "name": "flexi-student-management-system",
   "version": "1.0.0",
-  "description": "Full Stack Student Management System with Client, Server, and MongoDB",
+  "description": "Full Stack Student Management System built with React.js, Node.js, Express.js, and MongoDB",
+  "keywords": [
+    "react",
+    "reactjs",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "student-management-system",
+    "fullstack"
+  ],
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "dev": "npm --prefix client run dev",
     "client": "npm --prefix client run dev",
