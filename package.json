@@ -1,0 +1,14 @@
+{
+  "name": "flexi-student-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Student Management System with Client, Server, and MongoDB",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "client": "npm --prefix client run dev",
+    "server": "node server/server.js",
+    "start": "node server/server.js",
+    "seed": "node server/seed/seedData.js",
+    "frontend": "npm --prefix client run dev",
+    "backend": "node server/server.js"
+  }
+}
